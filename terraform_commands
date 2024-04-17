@@ -1,0 +1,8 @@
+//Command to "run" terraform programs
+terraform plan
+
+//Command to add "a user given value" 
+terraform plan -var "variableName = value"
+
+//Command to add "multiple user given values"
+terraform plan -var "variableName1 = value1" -var "variableName2 = value2"
