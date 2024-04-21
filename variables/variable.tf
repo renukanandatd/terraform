@@ -5,3 +5,11 @@ variable username {
 output name {
     value = "hello, ${var.username}"
 }
+
+variable names{
+    type = list
+}
+
+output names {
+    value = "${var.names}"
+}

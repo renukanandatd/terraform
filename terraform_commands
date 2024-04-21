@@ -5,4 +5,4 @@ terraform plan
 terraform plan -var "variableName = value"
 
 //Command to add "multiple user given values"
-terraform plan -var "variableName1 = value1" -var "variableName2 = value2"
+terraform plan -var "variableName1 = value1" -var "variableName2 = value2 "
